@@ -29,6 +29,16 @@
   <icon src="icon.png" />
   <gap:splash src="images/large.png" />
   <preference name="exit-on-suspend" value="true" />
+  
+  <!--
+    Define access to external domains.
+
+    <access /> - a blank access tag denies access to all external resources.
+    <access origin="*" /> - a wildcard access tag allows access to all external resource.
+
+    Otherwise, you can specify specific domains:
+  -->
+    <access origin="*"/> <!-- allow pages -->
 
   <!-- See http://build.phonegap.com/docs/config-xml for more details -->
 </widget>
